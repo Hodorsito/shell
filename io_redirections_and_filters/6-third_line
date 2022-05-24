@@ -1,2 +1,2 @@
 #!/bin/bash
-n "iacta"
+head -n "iacta"
