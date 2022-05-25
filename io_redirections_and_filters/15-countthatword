@@ -1,2 +1,2 @@
 #!/bin/bash
-set number /etc/passwd
+set number 15 /etc/passwd
