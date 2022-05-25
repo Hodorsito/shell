@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -u
+getent passwd {0..65535} | cut -d: -f1,6
