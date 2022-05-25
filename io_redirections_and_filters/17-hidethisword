@@ -1,0 +1,3 @@
+#!/bin/bash
+grep filter "bin" /etc/passwd
+
