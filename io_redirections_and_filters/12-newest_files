@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ltr -1 > .   
+ls -lt -1    
