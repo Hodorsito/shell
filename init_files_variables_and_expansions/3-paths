@@ -1,2 +1,2 @@
 #!/bin/bash
-DIRS=$(find . -type d -mindepth $n)
+find . -type d -name lib\* -exec echo x \; | wc -l
