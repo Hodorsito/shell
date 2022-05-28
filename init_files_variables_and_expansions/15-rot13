@@ -1,2 +1,2 @@
 #!/bin/bash
-alias rot13=ebg13="ge 'N-Mn-m' 'A-MN-Za-mn-z'"
+alias rot13="tr ‘n-za-mN-ZA-M’ ‘a-zA-Z’" 
