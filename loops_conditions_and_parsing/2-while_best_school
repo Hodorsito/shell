@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-i=10
-while [ $i -gt 10 ];
+END=10
+x=$END
+while [ $x -gt 10 ];
 do
-	echo $i
-	((i++))
+	date
+	x=$(($x-1))
 done
