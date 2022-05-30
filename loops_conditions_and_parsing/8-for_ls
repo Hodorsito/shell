@@ -3,6 +3,6 @@
 for FILE in . 
 do
 	echo $FILE 
-	cut -d "" -f 1 
+	cut -d "-" -f 1  
 done
 
