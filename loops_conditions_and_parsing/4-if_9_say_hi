@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #Thiss script is displaying "Best School" 10 times
 x=1
-while [ $x -le 10 ];
+while [ $x -le 9 ];
 do
 	if [ $x -eq 9 ]
 	then
-		echo "$x is not equal to 9"
+		echo "Hi"
 	fi
 	echo "Best School"
 	x=$(( x+1 ))
