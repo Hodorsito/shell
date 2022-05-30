@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+count=10
+until true 
+do
+	echo "Counter = $count"
+	((count++))
+	sleep 1
+done
