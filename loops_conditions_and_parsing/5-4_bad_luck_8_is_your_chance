@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#This script is displaying "Best School" 10 times
+x=0
+while [ $x -le 10 ];
+do
+	x=$(( x+1 ))
+	echo "Best School"
+	if [ $x -eq 4 ]
+	then
+		echo "bad luck" 
+	
+	fi
+	
+  
+done
