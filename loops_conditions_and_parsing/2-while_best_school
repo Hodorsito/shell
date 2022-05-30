@@ -6,4 +6,5 @@ while [ $x -gt 10 ];
 do
 	date
 	x=$(($x-1))
+	echo "Best School"
 done
