@@ -7,7 +7,12 @@ do
 	echo "Best School"
 	if [ $x -eq 4 ]
 	then
-		echo "bad luck" 
+		echo "bad luck"
+	elif [ $x -eq 8 ]
+	then 
+		echo "good luck"
+	else 	
+		echo "value of x is othern than 4 and 8"
 	
 	fi
 	
