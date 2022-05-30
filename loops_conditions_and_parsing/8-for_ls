@@ -2,6 +2,6 @@
 #This is a script that displays the content of the current directory in a list format
 for FILE in * 
 do
-	echo $FILE | cut -d "-" -f 2
+	echo "$FILE" | cut -d "-" -f 2
 	
 done
