@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
 #This script displays the time for 12 hours and 59 minutes
-x=1
-while [ $x -le 70 ]
+x=0
+while [ $x -le 12 ];
 do
-	case $x in 
-		minutes)
-			echo "$x"
-			echo "{1..59}"
-			x=$((x+1))
-			;;
-		
-		hours)
-			echo "$x"
-			echo "{1..12}"
-			x=$((x+1))
-			;;
+	echo "Hour: $x"
+	
 
-		esac
-	done
+        i=1
+        while [ $i -le 59 ];
+	do
+		echo "$i"
+		((i++))
+	done    
+	((x++))	
+
+
+done
+
+
 
