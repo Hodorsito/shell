@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#This is a script that print numbers from 1 to 20
 x=1
 while [ $x -le 21 ]
 do 
