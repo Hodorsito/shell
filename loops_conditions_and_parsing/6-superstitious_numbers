@@ -6,7 +6,7 @@ do
 	case $x in
 		4)
 		       echo "$x"	
-		       echo "bad luck for China"
+		       echo "bad luck from China"
 		       x=$(($x+1))
 		       ;;
 
