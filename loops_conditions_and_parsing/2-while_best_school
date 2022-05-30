@@ -3,6 +3,6 @@
 i=10
 while [ $i -gt 10 ];
 do
-	echo $Best School
+	echo $i
 	((i++))
 done
