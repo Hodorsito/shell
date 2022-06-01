@@ -3,7 +3,7 @@
 touch /var/run/myscript.pid 
 trap 'echo "I hate the kill command"' 15
 trap 'echo "Y U no love me?!"' 2
-trap 'echo "/var/run/myscript.pid""' 15
+trap 'echo "/var/run/myscript.pid""'
 while true
 do 
 	echo "To inifinity and beyond"
