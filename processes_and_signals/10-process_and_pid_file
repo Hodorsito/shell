@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-sudo touch /var/run/myscript.pid 
+sudo touch /var/run/myscript.pid -15 
 trap 'echo "I hate the kill command"' 15
 trap 'echo "Y U no love me?!"' 2
 trap 'echo "/var/run/myscript.pid""'
