@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
 sudo touch /var/run/myscript.pid
-trap 'echo "I hate the kill command"' SIGTERM
-trap 'echo "Y U no love me?!"' SIGINT
-trap 'echo "/vat/run/myscript.pid"' SIGQUIT SIGTERM
+trap 'echo "I hate the kill command"' "SIGTERM"
+trap 'echo "Y U no love me?!"' "SIGINT"
+trap 'echo "/vat/run/myscript.pid"' "SIGQUIT SIGTERM"
 while true
 do
 	echo "To infinity and beyond"
