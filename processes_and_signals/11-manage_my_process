@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 #
+
 while true 
 do
 	echo "I am alive!"
-	sleep 2
+	sleep 2;
+	
+	/etc/init.d/manage_my_process start
+	
 done
