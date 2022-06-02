@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 #
-echo $$>/var/run/myscript.pid 
-trap 'echo "I hate the kill command"; rm /var/run/myscript; exit 0' "sigterm"
-trap 'echo "Y U no love me?!";exit' "sigint" 
-trap 'echo "rm /var/run/myscript.pid"' "sigquit || sigterm"
+echo $$ > /var/run/myscript.pid 
 while true
 do
+	trap 'echo "I hate the kill command"; rm /var/run/myscript; exit' SIGTERM
+	trap 'echo "Y U no love me?!";exit' SIGINT
+	trap 'echo "rm /var/run/myscript.pid"' SIGQUIT
+
 	echo "To infinity and beyond"
 	sleep 2
 done
