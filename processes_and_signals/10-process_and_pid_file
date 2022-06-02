@@ -3,7 +3,7 @@
 sudo touch /var/run/myscript.pid
 trap 'echo "I hate the kill command"' "sigterm"
 trap 'echo "Y U no love me?!"' "sigint"
-trap 'echo "/vat/run/myscript.pid"' "sigquit||sigterm"
+trap 'echo "/vat/run/myscript.pid"' "sigquit"
 while true
 do
 	echo "To infinity and beyond"
