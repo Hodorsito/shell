@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 #
-sta
+start 
+	touch "/var/run/my_process"
+	
+	echo "manage_my_process"
+
