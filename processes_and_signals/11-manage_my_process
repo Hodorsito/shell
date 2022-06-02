@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-start 
-	touch "/var/run/my_process"
-	
-	echo "manage_my_process started"
+if [ $1 == "start" ]
+then
+	echo "manage_my_process" 
+fi
