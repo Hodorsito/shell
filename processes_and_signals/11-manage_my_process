@@ -4,8 +4,3 @@ start
 	touch "/var/run/my_process"
 	
 	echo "manage_my_process started"
-	
-stop 
-	rm -rf "/var/run/my_process"
-	
-	echo "manage_my_process stopped"
